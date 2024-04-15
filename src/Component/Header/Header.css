@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 200px 30px;
+    padding: 40px 130px 30px;
 }
 
 .profileImage {
@@ -21,7 +21,7 @@
 }
 
 .headerHrLine {
-    margin: 0px 200px 0px;
+    margin: 0px 130px 0px;
     background: rgba(17, 17, 17, 0.1);
     padding-bottom: 30;
 }
