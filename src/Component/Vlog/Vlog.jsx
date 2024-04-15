@@ -5,6 +5,7 @@ import './Vlog.css'
 const Vlog = (props) => {
     const { author_name, blog_title, hashtags, blog_cover_image, author_image, read_time, publish_date } = props.vlog;
     const handleBookMark = props.handleBookMark;
+    const handleReadTime = props.handleReadTime;
     return (
         <div className='vlog'>
             <div>
@@ -24,7 +25,7 @@ const Vlog = (props) => {
                 </div>
                 <p className='blog_title'>{blog_title}</p>
                 <p className='hashtags'>{hashtags}</p>
-                <p className='mark_as_read'>Mark as Read</p>
+                <p onClick={() => handleReadTime(read_time)} className='mark_as_read'>Mark as Read</p>
             </div>
 
         </div>

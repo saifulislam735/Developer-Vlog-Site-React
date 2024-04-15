@@ -24,24 +24,28 @@ const Vlogs = () => {
             alert('already added')
         }
     }
-    // console.log(bookMark)
+    const [spentTime, setSpentTime] = useState(0);
+    const handleReadTime = (time) => {
+        setSpentTime(spentTime + parseFloat(time));
+    }
+    console.log(spentTime)
     return (
         <div className='vlogs'>
             <div>
                 {
-                    vlogs.map(vlog => <Vlog key={vlog.id} vlog={vlog} handleBookMark={handleBookMark}></Vlog>)
+                    vlogs.map(vlog => <Vlog key={vlog.id} vlog={vlog} handleReadTime={handleReadTime} handleBookMark={handleBookMark}></Vlog>)
                 }
             </div>
             <div>
                 <div className='left'>
                     <div className="spentTimeBookMark">
-                        <p className='spentTimeStyle'>Spent time on read : { }</p>
+                        <p className='spentTimeStyle'>Spent time on read : {spentTime}</p>
                     </div>
                     <div className='Bookmarked_Blogs'>
                         <p className='Bookmarked_Blogs_Head'>Bookmarked Blogs : {bookMark.length}</p>
                         <div>
                             {
-                                bookMark.map(b => <Bookmark key={b.id} bookMark={b}></Bookmark>)
+                                bookMark.map(b => <Bookmark key={b.id} bookMark={b} ></Bookmark>)
                             }
                         </div>
                     </div>
