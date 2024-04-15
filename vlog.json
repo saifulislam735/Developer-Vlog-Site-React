@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "author_name": "John Doe",
+        "blog_title": "Getting Started with Python",
+        "hashtags": [
+            "#beginner",
+            "#python"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://images.unsplash.com/photo-1611199340099-91a595a86812?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "read_time": "5 minutes",
+        "publish_date": "2024-04-01"
+    },
+    {
+        "id": 2,
+        "author_name": "Jane Smith",
+        "blog_title": "JavaScript Fundamentals",
+        "hashtags": [
+            "#beginner",
+            "#javascript"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1339731921/photo/book-publisher-at-office.jpg?s=2048x2048&w=is&k=20&c=Gi7b8olhQ-47A-9fYvLY7ArgV4KQqRyr05FoswXN-SM=",
+        "read_time": "7 minutes",
+        "publish_date": "2024-04-02"
+    },
+    {
+        "id": 3,
+        "author_name": "Alice Johnson",
+        "blog_title": "Responsive Web Design Techniques",
+        "hashtags": [
+            "#webdev",
+            "#responsive"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1442372837/photo/young-female-architect-working-on-blueprints-at-her-desk-in-a-modern-office.jpg?s=2048x2048&w=is&k=20&c=BPQ4KyNhLqst_mnJHmSWj2OrzcrJAegfynQXHpesFhA=",
+        "read_time": "6 minutes",
+        "publish_date": "2024-04-03"
+    },
+    {
+        "id": 4,
+        "author_name": "Bob Williams",
+        "blog_title": "Introduction to React Hooks",
+        "hashtags": [
+            "#react",
+            "#intermediate"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1443435990/photo/asian-woman-typing-on-a-computer.jpg?s=2048x2048&w=is&k=20&c=yu9XAgiXXDiO2GXs30C8ymkRwr2xJgPLcAVT2NPJ-xs=",
+        "read_time": "8 minutes",
+        "publish_date": "2024-04-04"
+    },
+    {
+        "id": 5,
+        "author_name": "Eva Brown",
+        "blog_title": "CSS Grid Layout Explained",
+        "hashtags": [
+            "#webdev",
+            "#css"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://images.unsplash.com/photo-1494883759339-0b042055a4ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "read_time": "5 minutes",
+        "publish_date": "2024-04-05"
+    },
+    {
+        "id": 6,
+        "author_name": "Mike Davis",
+        "blog_title": "APIs for Beginners",
+        "hashtags": [
+            "#beginner",
+            "#api"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1299733036/photo/one-spanish-senior-man-headshot-portrait-smiling-at-the-camera.jpg?s=2048x2048&w=is&k=20&c=WJLISHIX66sAT_zfiq9ceh9EogC957MBhj0-duCvgiw=",
+        "read_time": "7 minutes",
+        "publish_date": "2024-04-06"
+    },
+    {
+        "id": 7,
+        "author_name": "Sophia Wilson",
+        "blog_title": "Vue.js Crash Course",
+        "hashtags": [
+            "#vue",
+            "#intermediate"
+        ],
+        "blog_cover_image": "https://example.com/vuejs_cover.jpg",
+        "author_image": "https://media.istockphoto.com/id/1201079417/photo/lifestyles-of-hipster-men-while-thinking-the-ideas-of-his-work-at-the-rustic-cafe.jpg?s=2048x2048&w=is&k=20&c=yZ5PhWdPR41dFcnnQWz1M9iSMAzF4l2_-jjW9_xp4p8=",
+        "read_time": "10 minutes",
+        "publish_date": "2024-04-07"
+    },
+    {
+        "id": 8,
+        "author_name": "Jake Lee",
+        "blog_title": "Docker Basics for Developers",
+        "hashtags": [
+            "#docker",
+            "#webdev"
+        ],
+        "blog_cover_image": "https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/637911792/photo/successful-man.jpg?s=2048x2048&w=is&k=20&c=ozKdxi0WPTtb_p5H2Kt4ZP8FDLp78A8ogiIt0OOuo10=",
+        "read_time": "9 minutes",
+        "publish_date": "2024-04-08"
+    },
+    {
+        "id": 9,
+        "author_name": "Grace Kim",
+        "blog_title": "GraphQL: An Introduction",
+        "hashtags": [
+            "#graphql",
+            "#backend"
+        ],
+        "blog_cover_image": "https://plus.unsplash.com/premium_photo-1683141123518-ae57c1b4d335?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1490765713/photo/man-paying-his-utility-bills-from-home-using-his-laptop.jpg?s=2048x2048&w=is&k=20&c=5gP0ivWFDYTVM7Ppg_UQzBGpWXo8DWtHE7-CeDttZa8=",
+        "read_time": "8 minutes",
+        "publish_date": "2024-04-09"
+    },
+    {
+        "id": 10,
+        "author_name": "Lucas Chen",
+        "blog_title": "Responsive Images: Best Practices",
+        "hashtags": [
+            "#webdev",
+            "#images"
+        ],
+        "blog_cover_image": "https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "author_image": "https://media.istockphoto.com/id/1477080026/photo/remote-work-online-and-a-mature-man-with-a-laptop-for-communication-entrepreneurship-and.jpg?s=2048x2048&w=is&k=20&c=O46lITgjrJN--3Gjr_3sQfQ6ExPqwpnv3db-mbo1wRI=",
+        "read_time": "6 minutes",
+        "publish_date": "2024-04-10"
+    }
+]
