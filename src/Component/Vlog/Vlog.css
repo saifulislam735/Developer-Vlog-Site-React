@@ -1,8 +1,5 @@
-.vlog {
-    padding: 30px 130px 0px;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 20px;
+.vlog{
+    padding-bottom: 50px;
 }
 
 .blog_cover_image {
@@ -83,3 +80,4 @@
     margin: 0px;
     padding-top: 10px;
 }
+
