@@ -1,0 +1,27 @@
+.siteName {
+    color: #111;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 64px */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 200px 30px;
+}
+
+.profileImage {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.headerHrLine {
+    margin: 0px 200px 0px;
+    background: rgba(17, 17, 17, 0.1);
+    padding-bottom: 30;
+}
