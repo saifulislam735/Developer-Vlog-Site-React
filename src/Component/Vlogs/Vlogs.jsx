@@ -30,7 +30,19 @@ const Vlogs = () => {
     const handleReadTime = (time) => {
         setSpentTime(spentTime + parseFloat(time));
     }
-    console.log(spentTime)
+
+    //Time Convertion in Minutes to Hour and Minutes
+    const timeInHourMinute = timeConvert(spentTime)
+    function timeConvert(n) {
+        var num = n;
+        var hours = (num / 60);
+        var rhours = Math.floor(hours);
+        var minutes = (hours - rhours) * 60;
+        var rminutes = Math.round(minutes);
+        return rhours + " H " + rminutes + " M";
+    }
+
+    // console.log(timeInHourMinute)
     return (
         <div className='vlogs'>
             <div>
@@ -42,7 +54,7 @@ const Vlogs = () => {
                 <div className='left'>
                     <div id="snackbar">This Blog Already Bookmarked</div>
                     <div className="spentTimeBookMark">
-                        <p className='spentTimeStyle'>Spent time on read : {spentTime}</p>
+                        <p className='spentTimeStyle'>Spent time on read : {timeInHourMinute}</p>
                     </div>
                     <div className='Bookmarked_Blogs'>
                         <p className='Bookmarked_Blogs_Head'>Bookmarked Blogs : {bookMark.length}</p>
