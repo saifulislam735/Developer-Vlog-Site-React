@@ -9,14 +9,24 @@
     .vlogs {
         padding: 30px 20px 0px;
         display: block;
-        /* grid-template-columns: 3fr 2fr; */
-        /* gap: 20px; */
     }
+
     .left {
-        position:relative;
-        margin-bottom: 1000px;
-        /* top: 20px; */
+        position: relative;
+        margin-bottom: 200px;
     }
+    .spentTimeStyle {
+        font-size: 14px;
+    }
+
+    .Bookmarked_Blogs {
+        padding: 14px;
+    }
+
+    .Bookmarked_Blogs_Head {
+        font-size: 14px;
+    }
+
 }
 
 .left {

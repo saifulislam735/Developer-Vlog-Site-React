@@ -88,9 +88,8 @@
     }
 
     .blog_cover_image {
-        width: 550px;
-        height: 310px;
-        border-radius: 8px;
+        width: 95%;
+        height: auto;
     }
 
     .author_image {
@@ -99,69 +98,37 @@
         border-radius: 40px;
     }
 
-    .vlogAuthorPart {
-        display: flex;
-        align-items: center;
-        gap: 22px;
-        margin-top: 20px;
-    }
-
     .vlogAuthorPart p {
-
         margin: 0px;
     }
 
     .author_name {
-        color: #111;
         font-size: 16px;
-        font-weight: 700;
-        line-height: 160%;
-        /* 38.4px */
     }
 
     .publish_date {
-        color: rgba(17, 17, 17, 0.60);
         font-size: 14px;
-        font-weight: 600;
-        line-height: 160%;
-        /* 25.6px */
     }
 
     .read_time {
-        color: rgba(17, 17, 17, 0.60);
-        text-align: right;
         font-size: 14px;
-        font-weight: 500;
-        line-height: normal;
     }
 
     .blog_title {
-        width: 500px;
-        color: #111;
-        font-size: 25px;
+        width: 80%;
+        font-size: 20px;
         font-weight: 700;
-        line-height: 160%;
-        /* 64px */
         margin-top: 10px;
         margin-bottom: 0px;
-
     }
 
     .hashtags {
-        color: rgba(17, 17, 17, 0.60);
         font-size: 14px;
         font-weight: 500;
-        line-height: 160%;
-        margin: 0px;
-        /* 32px */
     }
 
     .mark_as_read {
-        color: #6047EC;
         font-size: 14px;
-        font-weight: 600;
-        line-height: normal;
-        text-decoration-line: underline;
         margin: 0px;
         padding-top: 10px;
     }
