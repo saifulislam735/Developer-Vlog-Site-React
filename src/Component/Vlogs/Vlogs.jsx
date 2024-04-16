@@ -34,11 +34,11 @@ const Vlogs = () => {
     //Time Convertion in Minutes to Hour and Minutes
     const timeInHourMinute = timeConvert(spentTime)
     function timeConvert(n) {
-        var num = n;
-        var hours = (num / 60);
-        var rhours = Math.floor(hours);
-        var minutes = (hours - rhours) * 60;
-        var rminutes = Math.round(minutes);
+        let num = n;
+        let hours = (num / 60);
+        let rhours = Math.floor(hours);
+        let minutes = (hours - rhours) * 60;
+        let rminutes = Math.round(minutes);
         return rhours + " H " + rminutes + " M";
     }
 
