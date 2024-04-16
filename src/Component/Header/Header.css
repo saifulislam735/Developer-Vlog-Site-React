@@ -25,3 +25,12 @@
     background: rgba(17, 17, 17, 0.1);
     padding-bottom: 30;
 }
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20px 20px 10px;
+    }
+    .headerHrLine{
+        margin: 0px 20px 0px
+    }
+}
