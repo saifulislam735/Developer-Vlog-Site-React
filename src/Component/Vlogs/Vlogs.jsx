@@ -5,6 +5,7 @@ import Vlog from '../Vlog/Vlog';
 // import Bookmark from '../Bookmark/Bookmark';
 import './Vlogs.css'
 import Bookmark from '../Bookmark/Bookmark';
+import { myFunction } from '../../Utilities/SnackBar';
 const Vlogs = () => {
     const [vlogs, setVlogs] = useState([])
     useEffect(() => {
@@ -21,7 +22,8 @@ const Vlogs = () => {
             setBookMarked(newBookMarked)
         }
         else {
-            alert('already added')
+            // alert('already added')
+            myFunction();
         }
     }
     const [spentTime, setSpentTime] = useState(0);
@@ -38,6 +40,7 @@ const Vlogs = () => {
             </div>
             <div>
                 <div className='left'>
+                    <div id="snackbar">This Blog Already Bookmarked</div>
                     <div className="spentTimeBookMark">
                         <p className='spentTimeStyle'>Spent time on read : {spentTime}</p>
                     </div>
